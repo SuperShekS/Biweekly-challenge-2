@@ -10,7 +10,7 @@ try:
   age = int(input('How old are you: '))
   gender = input('What is your gender: ')
   year = 2021
-except Exception:
+except ValueError:
   print('Oops that was not a valid number')
 except TypeError:
   print('Argument must be a number')
